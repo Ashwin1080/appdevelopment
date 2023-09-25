@@ -1,0 +1,11 @@
+.academicmaindiv{
+    display: flex;
+}
+.mt-3{
+    width:700px;
+    margin-left: 100px;
+}
+.editbuttonacademic
+{
+    background-color: rgb(3, 18, 18);
+}
