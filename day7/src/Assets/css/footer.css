@@ -1,0 +1,28 @@
+/* footer.css */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-button {
+    background-color: #007bff; /* Change the button color to your preference */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners if desired */
+    margin: 5px; /* Add some spacing between buttons */
+  }
+  
+  .footer-button:hover {
+    background-color: #0056b3; /* Change the button color on hover */
+  }
