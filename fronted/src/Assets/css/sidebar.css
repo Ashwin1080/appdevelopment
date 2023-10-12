@@ -1,0 +1,61 @@
+/* Default styles for the sidebar */
+.sidebar {
+  background-color: rgb(7, 83, 83);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  height: 100vh;
+  padding-top: 100px;
+  transform: translateX(-100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+/* Logo styles */
+.sidebar .logo {
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Sidebar links styles */
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  padding: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile navigation button styles */
+.mobile-nav-button{
+  margin-top: 28px;
+  margin-left:10px;
+  border-radius:10px;
+}
+@media (max-width: 768px) {
+  /* Show the mobile navigation button and hide the sidebar by default on smaller screens */
+  .sidebar {
+    display: none;
+  }
+}
